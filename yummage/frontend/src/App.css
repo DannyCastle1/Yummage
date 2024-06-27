@@ -1,0 +1,312 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    align-items:center ;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.App{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.3rem; 
+    padding-right: 3rem;
+    padding-top: -8rem;
+    font-family: "Montserrat", sans-serif;
+    position: inherit;
+}
+.nav-name{
+    color: #FF7043;
+    font-family: "Quicksand", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.navbar > ul { 
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    font-size: 20px;
+}
+.navbar a {
+    text-decoration: none;
+}
+
+.navsignup {
+    background-color: #7FB685;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.navtext{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-drop{
+    border: solid #7FB685 !important;
+    font-size: 18px !important;
+    border-width: 3px !important;
+    /* border-radius: 10px; */
+}
+
+.navdrop-menu{
+    background-color: #7FB685;
+    width: 150px;
+    font-size: 18px;
+}
+
+.signup-container{
+    height: 591px;
+    width: 526px;
+    border: solid;
+    border-width: 4px;
+    border-color:#7FB685;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #7FB685 ;
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.login-container{
+    height: 515px;
+    width: 526px;
+    border: solid;
+    border-width: 4px;
+    border-color:#7FB685;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #7FB685 ;
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.yummage-header{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 3rem;
+}
+
+
+.signup-login{
+    color: #7FB685;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.yummage-p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.yummageinput{
+    border: none;
+    border-color: rgb(127,182,133, 0.3);
+    width: 385px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: 	rgb(127,182,133, 0.3);
+    font-family: "Montserrat", sans-serif;
+    padding-left: 20px;
+    font-weight: 400;
+}
+
+.yummage-label{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    padding-bottom: none;
+}
+.yummagesubmit{
+    background-color: #7FB685 !important;
+    width: 385px;
+    height: 50px;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    text-decoration: none;
+}
+
+.user-icon{
+    width: 30px;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+}
+
+.home-hero{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    /* margin-left: 4rem; */
+    /* margin-right: 4rem; */
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.home-header{
+    font-size: 66px;
+    justify-content: center;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+.home-h3{
+    font-size: 40px;
+    
+}
+.hero-link{
+    background-color: #7FB685;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.hero-content{
+    z-index: 0;
+    display: flex;
+    align-items: flex-start !important;
+    max-width: 80rem;
+    gap: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.input-green {
+    background-color: rgba(127, 182, 133, 0.3); /* 30% opacity */
+    color: rgba(0, 0, 0, 0.3); /* 30% black */
+  }
+  
+.dark-mode .input-green {
+    background-color: rgba(127, 182, 133, 0.5); /* 50% opacity */
+    color: rgba(255, 255, 255, 0.5); /* 50% white */
+}
+
+/* src/styles.css */
+.recipe-container {
+    /* height: 200px; */
+    border: solid;
+    border-width: 4px;
+    border-color: #7FB685;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* background-color: rgba(127, 182, 133, 0.25); */
+    border: 4px solid #7FB685;
+    border-radius: 8px;
+    padding: 16px;
+    height: 100%; /* Adjust height as needed */
+    width: 100%;
+}
+  
+.recipe-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure content fills the container */
+    flex: 1;
+}
+.button-container {
+    margin-top: auto; /* Push buttons to the bottom */
+}
+
+.recipe-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.user-profile-card-container {
+    width: 20%;
+    margin-right: 2%;
+}
+
+.user-profile-card {
+    border:double;
+    border-width: 6px;
+    border-color: #7FB685;
+    border-radius: 10px;
+    /*box-shadow: 10px 10px 20px 5px #7FB685;*/
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    width: 100%;
+    /* height: 500px; */
+    background-color: rgba(127, 182, 133, 0.20);
+}
+
+.recipe-grid-container {
+    width: 78%;
+    /* display:grid */
+}
+
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
