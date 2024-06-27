@@ -13,7 +13,7 @@
 <br />
 
 <div align='center'>
-  <img src="frontend/public/yummageLogo.png" width="500px"/>
+  <img src="public/yummageLogo.png" width="500px"/>
  </div>
 
 <!-- TABLE OF CONTENTS -->
